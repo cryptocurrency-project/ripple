@@ -1,6 +1,10 @@
 version: "3"
 services:
-  node-ripple:
-    image: ripple-node:v1.3.1
+  node-xrp:
+    image: ripple-core:v1.4.0
+    volumes:
+      - xrp-db:/var/lib/rippled/db
+      - xrp-db/Nudb:/var/lib/rippled/db/Nudb
     ports:
-      - 5005:5005
+      - "5005:5005"
+    command: ["rippled", "--conf", "/opt/ripple/etc/ripple.cfg"]

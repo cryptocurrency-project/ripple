@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 MAINTAINER Yuki Watanabe <watanabe@future-needs.com>
 
-ARG RIPPLE_VERSION=${RIPPLE_VERSION:-1.3.1}
+ARG RIPPLE_VERSION=${RIPPLE_VERSION:-1.4.0}
 
 RUN -x && \
   apt-get update && \
