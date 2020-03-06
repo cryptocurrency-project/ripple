@@ -11,4 +11,4 @@
 [XRP Scan](https://xrpscan.com/)
 
 ## Build method
-docker build --build-arg RIPPLE_VERSION=1.3.1 -t ripple-node:v1.3.1 -f Dockerfile .
+docker build --build-arg RIPPLE_VERSION=1.4.0 -t xrp-node:v1.4.0 -f Dockerfile .
