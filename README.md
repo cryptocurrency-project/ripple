@@ -2,7 +2,7 @@
 [Ripple repos](https://repos.ripple.com/repos/rippled-rpm/stable/)
 
 ## Ripple Formula
-[Rippled](https://github.com/ripple/rippled)
+[ripple/rippled](https://github.com/ripple/rippled)
 
 ## Ripple API
 [Ripple API](https://xrpl.org/public-rippled-methods.html)
